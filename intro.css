@@ -69,14 +69,14 @@ text-decoration: none;
 }
 .preamble {
   display: flex;
-  padding-left: 20px;
+  
   flex-direction: column;
   align-items: center;
   font-family: 'Fira Sans', sans-serif;
 }
 .preamble p {
   padding: 0px;
-  width: 70%;
+  width: 80%;
   line-height: 1.5;
   font-size: 17px;
   margin: 10px;
