@@ -1,0 +1,84 @@
+
+
+.wrapper {
+  height: 100vh;
+  width: 300px;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start; 
+  position: fixed;
+  right: 0px;
+  top: 60px;
+  font-family: 'Fira Sans', sans-serif;
+  grid-column:2/3;
+  grid-row: 3/6;
+  padding: 15px;
+  box-sizing: border-box;
+  
+}
+
+.design-selection li {
+  padding: 3px;
+  text-decoration: none;
+  color: blue;
+  font-weight: 500;
+  font-size: 16px;
+}
+ .design-selection a {
+   text-decoration: none;
+   color: black;
+  
+
+ }
+ .design-selection a:hover {
+   color: pink;
+   font-size: 22px;
+ }
+
+.design-archives li {
+  padding: 3px;
+  
+  text-decoration: none;
+  color: blue;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.design-archives a {
+  text-decoration: none;
+   color: black;
+}
+
+.design-archives a:hover {
+  font-size: 20px;
+   color: pink;
+}
+
+.zen-resources li{
+
+  padding: 3px;
+  
+  text-decoration: none;
+  color: blue;
+  font-weight: 500;
+  font-size: 16px;
+}
+ .zen-resources a {
+   text-decoration: none;
+   color: black;
+
+ }
+
+ .zen-resources a:hover {
+  font-size: 20px;
+  color: pink;
+
+}
+
+
+
+ 
+
+

@@ -1,0 +1,90 @@
+
+
+.intro header {
+  height: 60px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 2px;
+  align-items: center;
+  justify-content: space-between;
+}
+.intro header h1 {
+  margin-left: 20px;
+}
+.intro header h2 {
+  font-size: 18px; 
+  margin-right: 30px;
+text-decoration: none;
+} 
+
+
+
+.summary {
+  font-size: 22px;
+  height: 200px;
+  grid-row: 2 / 3;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-right: 20%;
+  padding-left: 20%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 1px;
+  font-weight: 700;
+  word-spacing: 1px;
+  line-height: 1.5;
+  
+    
+  
+}
+
+.summary p {
+  text-decoration: none;
+  padding: 10px;
+  /* box-shadow: 0 0px 50px rgba(240, 46, 170, 0.3);
+  padding: 10px;
+  border-radius: 9px;
+  background: rgba(240, 46, 170, 0.3);
+  text-shadow: 0px 0px 3px white;
+} */}
+
+.summary a {
+  text-decoration: none;
+  color: black;
+}
+.summary a:hover {
+  
+  color: white;
+}
+.preamble {
+  display: flex;
+  padding-left: 20px;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Fira Sans', sans-serif;
+}
+.preamble p {
+  padding: 0px;
+  width: 70%;
+  line-height: 1.5;
+  font-size: 17px;
+  margin: 10px;
+}
+.preamble h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  padding-bottom: 20px;
+  
+  
+}

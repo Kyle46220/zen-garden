@@ -1,0 +1,18 @@
+/* .main {
+  grid-row: 4/5;
+} */
+#zen-supporting {
+  display:flex;
+  flex-direction: column;
+  grid-row: 5/6;
+  grid-column: 1/2;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  padding: 40px;
+  font-family: 'Fira Sans', sans-serif;
+  line-height: 1.5;
+}
+
